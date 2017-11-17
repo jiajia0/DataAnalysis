@@ -5,7 +5,6 @@ import matplotlib.pylab as plt
 sj = pd.read_excel(r'F:\DataAnalysis\sj.xls')
 
 #-----------------各个学院平均分------------------
-
 #按照各个学院进行分组
 xymean = sj['总分'].groupby([sj['院系名称'],sj['语言级别']])
 
